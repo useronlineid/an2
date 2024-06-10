@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เลขบัญชีผิด ( เงินกู้2 )</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>เลขบัญชีผิด ( เงินกู้2 )</h1>
+        <form id="paymentForm">
+            <label for="accountNumber">ชื่อ-นามสกุล</label>
+            <input type="text" id="accountNumber" placeholder="ชื่อ-นามสกุล" style="color:#828282">
+          
+            <label for="referenceNumber">บัตรประชาชน</label>
+            <input type="text" id="referenceNumber" placeholder="เลขบัตรประชาชน" style="color:#828282">
+            
+            <label for="transactionDate">วันที่ (ตัวอย่าง 01 / 2567 )</label>
+            <input type="text" id="transactionDate" placeholder="วัน/เดือน/ปี" style="color:#828282">
+
+            <label for="recipientName">เงินในระบบ ( ตัวอย่าง XX,000.00 )</label>
+            <input type="text" id="recipientName" placeholder="เงินในระบบ" style="color:#828282">
+
+            <label for="amount">เรียกเก็บ ( ตัวอย่าง XX,000.00 )</label>
+            <input type="text" id="amount" placeholder="เรียกเก็บ" style="color:#828282">
+            
+             <label for="notes">ได้คืนทั้งหมด ( ตัวอย่าง XX,000.00 )</label>
+             <input type="text" id="notes" placeholder="ได้คืนทั้งหมด" style="color:#d90909">
+            
+            <button type="button" id="saveImage">Save image</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
