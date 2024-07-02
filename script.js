@@ -53,7 +53,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
                 ข้อ(2.4) ผู้ค้ำประกัน จำเป็นต้องชำระหนี้แทนทั้งหมด หากไม่มีการชำระหนี้ จำเป็นต้องดำเนินคดีและยึดทรัพย์สินตามกฎหมาย</p>
 
                 <p style="position: absolute; top: 732px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                จึงเรียนมาเพื่อโปรดแจ้งให้เจ้าหน้าที่ที่เกี่ยวของทราบและถือปฎิบัติ</p>
+                จึงเรียนมาเพื่อโปรดแจ้งให้เจ้าหน้าที่ที่เกี่ยวข้องทราบและถือปฎิบัติ</p>
                 
                                 <p style="position: absolute; top: 760px; left: 123px; color:#656565; font-size: 20px; font-weight: bold;">ขอแสดงความนับถือ</p>     
                 <p style="position: absolute; top: 805px; left: 113px; color:#656565; font-size: 20px; font-weight: bold;">.....................................</p>     
