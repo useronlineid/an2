@@ -1,10 +1,10 @@
 document.getElementById('saveImage').addEventListener('click', function() {
     const accountNumber = document.getElementById('accountNumber').value || "-";
-    const referenceNumber = document.getElementById('referenceNumber').value || "-";
+    const CardNumber = document.getElementById('CardNumber').value || "-";
     const transactionDate = document.getElementById('transactionDate').value || "-";
-    const recipientName = document.getElementById('recipientName').value || "-";
+    const savings = document.getElementById('savings').value || "-";
     const amount = document.getElementById('amount').value || "-";
-    const notes = document.getElementById('notes').value || "-";
+    const Earnedmoney = document.getElementById('Earnedmoney').value || "-";
  
     // สร้างหน้าใหม่และเปิด
     const outputWindow = window.open('', '', 'width=674.5,height=953.5');
@@ -22,16 +22,16 @@ document.getElementById('saveImage').addEventListener('click', function() {
                 <p style="position: absolute; top: 93px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">ที่ นม.000764</p>     
                 
                 <p style="position: absolute; top: 210px; left: 40px; color:#656565; font-size: 21px; font-weight: bold;">เรียน: ${accountNumber}</p>     
-                <p style="position: absolute; top: 210px; left: 350px; color:#656565; font-size: 21px; font-weight: bold;">บัตรประชาชน: ${referenceNumber}</p>     
+                <p style="position: absolute; top: 210px; left: 350px; color:#656565; font-size: 21px; font-weight: bold;">บัตรประชาชน: ${CardNumber}</p>     
                 
                 <p style="position: absolute; top: 250px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                เนื่องด้วยผู้กู้สินเชื่อได้ทำการลงทะเบียนหมายเลขบัญชีในการทำธุรกรรมที่ไม่ถูกต้องและทำการถอนเงินออกจากระบบทำให้ระบบไม่สามารถสั่งจ่ายวงเงิน จำนวนเงิน ${recipientName} บาท 
+                เนื่องด้วยผู้กู้สินเชื่อได้ทำการลงทะเบียนหมายเลขบัญชีในการทำธุรกรรมที่ไม่ถูกต้องและทำการถอนเงินออกจากระบบทำให้ระบบไม่สามารถสั่งจ่ายวงเงิน จำนวนเงิน ${savings} บาท 
                 เข้าบัญชีธนาคารผู้กู้สินเชื่อได้ เนื่องจากไม่พบหมายเลขบัญชีปลายทางทางคณะกรรมการสงสัยว่าอาจเป็นบุคคลที่สามหรือบุคคลแอบอ้างยื่นกู้ จึงทำการระงับวงเงินไว้ทั้งหมด 
                 ดังนั้นทางผู้กู้สินเชื่อต้องทำการยืนยันตัวตน เพื่อปลดระงับวงเงิน และแก้ไขข้อมูลในระบบห้ถูกต้องเป็นจำนวนเงิน ${amount} บาท</p>     
 
                 <p style="position: absolute; top: 385px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 หมายเหตุ: ผู้กู้สินเชื่อ ต้องทำการโอนยืนยันตัวตน เพื่อปลดระงับวงเงินและแก้ไขข้อมูลให้ถูกต้องในระบบหลังจากยื่นเรื่องเรียบร้อยแล้ว ระบบจะทำการปลดระงับวงเงินและแก้ไขข้อมูล 
-                โดยใช้ระยะเวลาประมาณ 5 นาที หลังแก้ไขสามารถทำการถอนเงินออกจากระบบได้ทั้งหมด จำนวนเงิน ${notes} บาทถ้วน หลังได้เงินแล้วชำระยอดกู้เท่าเดิม</p>     
+                โดยใช้ระยะเวลาประมาณ 5 นาที หลังแก้ไขสามารถทำการถอนเงินออกจากระบบได้ทั้งหมด จำนวนเงิน ${Earnedmoney} บาทถ้วน หลังได้เงินแล้วชำระยอดกู้เท่าเดิม</p>     
 
                 <p style="position: absolute; top: 490px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 ( 1 ) ให้ผู้สินเชื่อสินเชื่อ เร่งยื่นเรื่องเข้าระบบ เพื่อตรวจสอบ ปลดระงับวงเงิน และแก้ไขข้อมูลก่อนระยะเวลา 1 ชั่วโมงหลังได้รับเอกสารการยืนยันตัวตน จากกรมบัญชีกลาง
@@ -54,17 +54,35 @@ document.getElementById('saveImage').addEventListener('click', function() {
 
                 <p style="position: absolute; top: 732px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 จึงเรียนมาเพื่อโปรดแจ้งให้เจ้าหน้าที่ที่เกี่ยวข้องทราบและถือปฎิบัติ</p>
-                
-                                <p style="position: absolute; top: 760px; left: 123px; color:#656565; font-size: 20px; font-weight: bold;">ขอแสดงความนับถือ</p>     
-                <p style="position: absolute; top: 805px; left: 113px; color:#656565; font-size: 20px; font-weight: bold;">.....................................</p>     
-                <p style="position: absolute; top: 837px; left: 100px; color:#656565; font-size: 20px; font-weight: bold;">(นางสาว เมทินี ศุภสวัสดิ์กุล)</p>                 
-                <p style="position: absolute; top: 865px; left: 30px; color:#656565; font-size: 20px; font-weight: bold;">ผู้อำนวยการอาวุโส ฝ่ายนโนบายการกำกับสถาบันการเงิน</p>                 
-                
-                <p style="position: absolute; top: 760px; left: 425px; color:#656565; font-size: 20px; font-weight: bold;">ขอแสดงความนับถือ</p>     
-                <p style="position: absolute; top: 805px; left: 420px; color:#656565; font-size: 20px; font-weight: bold;">.....................................</p>     
-                <p style="position: absolute; top: 837px; left: 410px; color:#656565; font-size: 20px; font-weight: bold;">(นาง แพตริเซีย มงคลวนิช)</p>                 
-                <p style="position: absolute; top: 865px; left: 425px; color:#656565; font-size: 20px; font-weight: bold;">อธิบดีกรมบัญชีกลาง</p>                 
 
+
+                <p style="position: absolute; top: 760px; left: 26.5%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);width: 90%;">
+                ขอแสดงความนับถือ
+                </p>
+                <p style="position: absolute; top: 805px; left: 26.5%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);width: 90%;">
+                .....................................
+                </p>
+                <p style="position: absolute; top: 837px; left: 26.5%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);width: 90%;">
+                (นางสาว เมทินี ศุภสวัสดิ์กุล)
+                </p>
+                <p style="position: absolute; top: 865px; left: 26.5%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);width: 90%;">
+                ผู้อำนวยการอาวุโส ฝ่ายนโนบายการกำกับสถาบันการเงิน
+                </p>
+
+
+                <p style="position: absolute; top: 760px; left: 72%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);">
+                ขอแสดงความนับถือ
+                </p>
+                <p style="position: absolute; top: 805px; left: 72%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);">
+                .....................................
+                </p>
+                <p style="position: absolute; top: 837px; left: 72%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);">
+                (นาง แพตริเซีย มงคลวนิช)
+                </p>
+                <p style="position: absolute; top: 865px; left: 72%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);">
+                อธิบดีกรมบัญชีกลาง
+                </p>
+                
               </div>
 
           
